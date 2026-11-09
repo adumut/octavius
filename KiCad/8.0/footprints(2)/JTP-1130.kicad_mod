@@ -1,0 +1,51 @@
+
+(footprint JTP-1130 (layer F.Cu) (tedit 690BAA99)
+  (descr "")
+  (fp_text reference "REF**" (at 0 0) (layer F.SilkS)
+    (effects (font (size 0.787401574803 0.787401574803) (thickness 0.15)))
+  )
+  (fp_text value "JTP-1130" (at 0 0) (layer F.Fab)
+    (effects (font (size 0.787401574803 0.787401574803) (thickness 0.15)))
+  )
+  (pad 2 thru_hole circle (at -3.25 2.25) (size 1.508 1.508) (drill 1.0) (layers *.Cu *.Mask) (solder_mask_margin 0.102))
+  (pad 1 thru_hole circle (at 3.25 2.25) (size 1.508 1.508) (drill 1.0) (layers *.Cu *.Mask) (solder_mask_margin 0.102))
+  (pad 3 thru_hole circle (at 3.25 -2.25) (size 1.508 1.508) (drill 1.0) (layers *.Cu *.Mask) (solder_mask_margin 0.102))
+  (pad 4 thru_hole circle (at -3.25 -2.25) (size 1.508 1.508) (drill 1.0) (layers *.Cu *.Mask) (solder_mask_margin 0.102))
+  (fp_line (start -3.0 3.0) (end 3.0 3.0) (layer F.SilkS) (width 0.2032))
+  (fp_line (start 3.0 3.0) (end 3.0 -3.0) (layer F.SilkS) (width 0.2032))
+  (fp_line (start 3.0 -3.0) (end -3.0 -3.0) (layer F.SilkS) (width 0.2032))
+  (fp_line (start -3.0 -3.0) (end -3.0 3.0) (layer F.SilkS) (width 0.2032))
+  (fp_circle (center 0.0 0.0) (end 1.5 0.0) (layer F.Fab) (width 0.5))
+  (fp_poly
+    (pts
+      (xy 3.0 -2.6)
+      (xy 3.95 -2.6)
+      (xy 3.95 -1.9)
+      (xy 3.0 -1.9)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 3.0 1.9)
+      (xy 3.95 1.9)
+      (xy 3.95 2.6)
+      (xy 3.0 2.6)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -3.95 1.9)
+      (xy -3.0 1.9)
+      (xy -3.0 2.6)
+      (xy -3.95 2.6)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -3.95 -2.6)
+      (xy -3.0 -2.6)
+      (xy -3.0 -1.9)
+      (xy -3.95 -1.9)
+    ) (layer F.Fab) (width 0.01)
+  )
+)

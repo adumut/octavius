@@ -1,0 +1,7 @@
+*.kate-swp
+.history/
+*-bak
+*.bak
+*.kicad_pcb-bak
+*.sch-bak
+_autosave-*
